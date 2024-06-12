@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ca4646;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+#span1{
+    color: yellow;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+.yellow{
+    background-color: yellow;
+    padding: 14px 50px;
+
+}
+.heder-mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black{
+    background-color: #000;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.black h2{
+    margin: 18px auto;
+}
+.black p{
+    padding: 24px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
